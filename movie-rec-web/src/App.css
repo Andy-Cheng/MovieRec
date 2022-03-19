@@ -1,0 +1,48 @@
+.app{
+  background-color: rgb(253, 253, 253);
+  min-height: 200vh;
+}
+
+.navBar{
+  width: 100%;
+  background-color: rgb(6, 12, 24);
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.cardRoot{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 65px;
+  width: calc(100% - 400px);
+}
+
+
+.predictionWindow{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  /* min-height: 100vh; */
+  /* border-left: 2px solid rgb(56, 53, 53); */
+  /* background-color: rgb(6, 12, 24); */
+  padding-top: 100px;
+  padding-right: 64px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.predictionWindow::-webkit-scrollbar {
+  display: none;
+}
+
+.recMovieRoot{
+  display: flex;
+  flex-direction: column-reverse;
+}

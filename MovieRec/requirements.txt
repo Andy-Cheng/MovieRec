@@ -1,0 +1,9 @@
+wget
+tqdm
+numpy
+torch
+tensorboard
+pandas
+scipy
+cherrypy-cors
+cherrypy
